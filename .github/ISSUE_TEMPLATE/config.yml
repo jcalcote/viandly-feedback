@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Viandly Help Center
+    url: https://viandly.com/help
+    about: Read task-oriented help before reporting a workflow problem.
+  - name: Private security report
+    url: mailto:security@viandly.com
+    about: Report vulnerabilities privately rather than opening a public issue.

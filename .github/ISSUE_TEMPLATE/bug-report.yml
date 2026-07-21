@@ -1,0 +1,82 @@
+name: Bug report
+description: Report behavior that appears to be incorrect.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve Viandly. Do not include private recipes, share links, credentials, API keys, or other sensitive information.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Briefly describe the problem and where you encountered it.
+      placeholder: When I ..., Viandly ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Give the shortest sequence that consistently demonstrates the problem.
+      placeholder: |
+        1. Open ...
+        2. Select ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect Viandly to do?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device type
+      options:
+        - Desktop or laptop
+        - iPad or other tablet
+        - iPhone
+        - Android phone
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and operating system
+      description: For example, Safari on iPadOS 20 or Chrome on Fedora 44.
+      placeholder: Browser, version if known, and operating system
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Viandly version
+      description: Find this under Account > About Viandly. Include the revision when available.
+      placeholder: 0.9.0-beta.3 (revision abcdef123456)
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or additional details
+      description: Drag screenshots here after removing private or identifying information.
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have removed private recipes, share links, credentials, and personal information from this report.
+          required: true
