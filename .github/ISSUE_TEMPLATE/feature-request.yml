@@ -3,6 +3,7 @@ description: Suggest a workflow improvement or new Viandly capability.
 title: "[Feature]: "
 labels:
   - enhancement
+  - "status: needs-triage"
 body:
   - type: markdown
     attributes:

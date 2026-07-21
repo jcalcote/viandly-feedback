@@ -3,6 +3,7 @@ description: Report behavior that appears to be incorrect.
 title: "[Bug]: "
 labels:
   - bug
+  - "status: needs-triage"
 body:
   - type: markdown
     attributes:

@@ -26,6 +26,13 @@ The [Viandly Help Center](https://viandly.com/help) contains task-oriented instr
 import, Cooking Mode, cookbooks, scanner setup, baking formulas, account settings, and other
 features.
 
+## What Happens Next
+
+Reports move through a documented process from triage and reproduction through implementation,
+release, and production verification. A bug remains open until its fix is available to beta
+testers, not merely committed to source control. See the [feedback workflow](./WORKFLOW.md) for the
+status labels and closure policy.
+
 ## Security and Privacy
 
 Do not include passwords, API keys, private recipe contents, private share links, personal data, or
