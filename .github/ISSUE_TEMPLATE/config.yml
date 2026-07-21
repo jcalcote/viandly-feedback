@@ -4,5 +4,5 @@ contact_links:
     url: https://viandly.com/help
     about: Read task-oriented help before reporting a workflow problem.
   - name: Private security report
-    url: mailto:security@viandly.com
+    url: https://github.com/jcalcote/viandly-feedback/blob/main/SECURITY.md
     about: Report vulnerabilities privately rather than opening a public issue.
