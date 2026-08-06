@@ -41,6 +41,7 @@ in [SECURITY.md](./SECURITY.md).
 
 ## Releases
 
+- [Viandly 0.9.0-beta.24](./releases/0.9.0-beta.24.md)
 - [Viandly 0.9.0-beta.23](./releases/0.9.0-beta.23.md)
 - [Viandly 0.9.0-beta.22](./releases/0.9.0-beta.22.md)
 - [Viandly 0.9.0-beta.21](./releases/0.9.0-beta.21.md)
